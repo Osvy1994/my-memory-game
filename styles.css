@@ -1,56 +1,60 @@
 body {
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 70%);
-    font-family: sans-serif;
-    color: white;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 70%
+  );
+  font-family: sans-serif;
+  color: white;
 }
 main {
-    display: flex;
-    align-items: center;
-    margin: 100px auto 50px;
-    width: 740px;
+  display: flex;
+  align-items: center;
+  margin: 100px auto 50px;
+  width: 740px;
 }
 .section1 {
-    background-color: rgba(255,255,255,0.2);
-    padding: 0 10px 10px 10px;
-    border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0 10px 10px 10px;
+  border-radius: 8px;
 }
 .section2 {
-    background-color: rgba(255,255,255,0.2);
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 button {
-    height: 100px;
-    width: 100px;
-    font-size: 40px;
-    color: white;
-    font-weight: bold;
-    border-radius: 8px;
-    border: grey;
-    margin: 2px;
+  height: 100px;
+  width: 100px;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  border: grey;
+  margin: 2px;
 }
 h1 {
-    text-align: center;
+  text-align: center;
 }
 .statistics {
-    border: 1px solid white;
-    padding: 40px 10px;
-    border-radius: 8px;
-    margin: 15px;
-    box-sizing: border-box;
+  border: 1px solid white;
+  padding: 40px 10px;
+  border-radius: 8px;
+  margin: 15px;
+  box-sizing: border-box;
 }
 footer {
-    text-align: center;
-    font-size: 30px;
+  text-align: center;
+  font-size: 30px;
 }
 button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 img {
-    width: 80%;
-    margin-top: 10px;
+  width: 80%;
+  margin-top: 10px;
 }
